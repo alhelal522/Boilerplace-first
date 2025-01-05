@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Rubik:wght@300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 1.2;
+}
+
+/* Banner section start */
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: "Rubik", serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Poppins", serif;
+  font-weight: 700;
+}
+
+.hero-area{
+    background-image: url(../image/banner-bg.jpg);
+    height: 100svh;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-area::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #030e50;
+    z-index: -1;
+    opacity: .5;
+}
+
+.header{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.menu ul{
+    display: flex;
+    column-gap: 30px;
+    list-style: none;
+}
+
+.menu a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.btn{
+    background: linear-gradient(to right bottom, #fb8133, #f53434);
+    padding: 12px 22px;
+    border: 1px solid #fb8133;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.hero-text{
+    margin: 280px auto 0;
+    width: 680px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero-text h1{
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+p{
+    line-height: 1.7em;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.hero-btns{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.hero-btns .btn{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.hero-btns a{
+    background-color: #dcdcdc33;
+    padding: 12px 22px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 100px;
+    border: 1px solid #fb8133;
+    font-size: 12px;
+}
+
+.hero-btns a:hover{
+    background: linear-gradient(to right bottom, #fb8133, #f53434);
+}
+/* Banner section End */
+
+/* services section start */
+.top-bottom-padding{
+    padding: 100px 0;
+}
+
+.services-bio{
+    margin: 0 auto;
+    width: 700px;
+}
+
+h4{
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fb8133;
+    letter-spacing: 2px;
+    
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: #172541;
+    margin: 10px 0;
+}
+
+.services{
+    display: flex;
+    column-gap: 30px;
+    margin-top: 70px;
+}
+
+.single-service{
+    border: 1px dashed #eee;
+    padding: 50px 30px;
+    text-align: center;
+}
+
+.extra{
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    border: 1px dashed #eee;
+    border-radius: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.icon-box{
+    width: 80px;
+    height: 80px;  
+    border-radius: 50%;
+    background-color: #f8f8f8;
+    padding: 10px;
+    position: absolute;
+    color: #fb8133;
+}
+
+.single-service:nth-child(2) {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border: none;
+}
+
+.single-service:nth-child(2) .icon-box{
+    width: 80px;
+    height: 80px;  
+    border-radius: 50%;
+    background-color: #fb8133;
+    padding: 10px;
+    position: absolute;
+    color: #ffffff;
+}
+
+.single-service:hover .icon-box{
+    width: 80px;
+    height: 80px;  
+    border-radius: 50%;
+    background-color: #fb8133;
+    padding: 10px;
+    position: absolute;
+    color: #ffffff;
+}
+
+h3{
+    margin: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
