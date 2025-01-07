@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:wght@200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: "Inter", serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Plus Jakarta Sans", serif;
+}
+
+/* hero section start */
+.hero{
+    background-image: url(../image/hero-9.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    position: relative;
+}
+
+/* header start */
+
+.header{
+    display: flex;
+    width: 1150px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+
+}
+
+.logo img{
+    width: 140px;
+    cursor: pointer;
+}
+
+.menu ul {
+    display: flex;
+    column-gap: 40px;
+    list-style: none;
+}
+.menu ul a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.btn-br{
+    background-color: #308af0;
+    padding: 13px 24px;
+    border-radius: 10px;
+    border: 2px solid #308af0;
+}
+
+.btn-br:hover{
+    background-color: #308af000;
+    border-radius: 10px;
+    border: 2px solid #308af0;
+}
+/* header end */
+
+/* banner start */
+.banner{
+    display: flex;
+    width: 1350px;
+    margin: 0 auto;
+    padding-top: 80px;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.left img{
+    width: 600px;
+}
+
+.right h1{
+    font-size: 63px;
+    color: #ffffff;
+    padding-right: 50px;
+}
+.right p{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 30px 0;
+    line-height: 1.5;
+    padding-right: 100px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type="email"] {
+    width: 430px;
+    color: #666;
+    padding: 10px 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+    height: 58px;
+}
+
+button {
+    padding: 10px 50px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 58px;
+    color: #fff;
+    background-color: #308af0; 
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #308af0;
+    border: 1px solid #308af0;
+}
+/* banner end */
+/* hero section end */
+
+/* services section start */
+.padding-top-bottom{
+    padding: 100px 0;
+}
+.services{
+    display: flex;
+    width: 1350px;
+    margin: 0 auto;
+    column-gap: 100px;
+    align-items: center;
+}
+
+.service-content{
+    width: 40%;
+}
+
+.service-content h4{
+    color: #6c757d;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+.service-content h1{
+    color: #313435;
+    font-size: 54px;
+    line-height: 1.2; 
+    margin: 10px 0 25px 0;
+}
+
+.service-content p{
+    color: #6c757d;
+    font-size: 18px;
+    margin-top: 20px; 
+}
+
+.serv{
+    width: 60%;
+    position: relative;
+}
+
+.service-icon{
+    display: flex;
+    
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.icon-box{
+    width: 48%;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 10px 0px #6c757d;
+    padding: 50px 80px 50px 30px;
+}
+
+.extra h2{
+    font-size: 24px;
+    color: #313435;
+    margin: 10px 0 20px 0;
+}
+
+.extra p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #6c757d;
+}
+
+.iser{
+    display: flex;
+    width: 100%;
+    position: relative;
+    align-items: center;
+}
+
+.iser::after{
+    content: "";
+    background-color: #308AF0;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    width: 50%;
+    height: 60%;
+    z-index: -1;
+    opacity: .8;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* services section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
